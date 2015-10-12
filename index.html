@@ -4,19 +4,17 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <p>
+    Mohammed Mughrabi aka Mo Mughrabi, born and raised in Kuwait. I've been into Technology
+    both as a career and passion for over 7 years. As a freelancer, I was mostly engaged in building web
+    based solutions using various technologies, more in depth covered in my
+    <a href="">resume</a>.
+  </p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <p>
+    On my free time, am traveling enthusiast, movies junkie, sports and enjoy scuba diving and recently a
+    growing interest in cooking.
+  </p>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
