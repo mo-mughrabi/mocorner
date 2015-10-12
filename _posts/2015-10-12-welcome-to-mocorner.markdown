@@ -1,6 +1,11 @@
 ---
 layout: post
+title: Square one
+excerpt_separator: <!--more-->
 ---
 
+Excerpt
+<!--more-->
+Out-of-excerpt
 
-sjhdsjhd
+Back to blogging, square one.
