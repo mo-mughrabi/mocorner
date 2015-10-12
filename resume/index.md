@@ -20,6 +20,9 @@ Established and managed a start up focused on open source technologies. My role 
 the investors and company's strategy, supervise expenditures allocation, asses risks and make sure these risks
 are monitored, to ensure integrity of all assets and deliveries.
 
+Overview technical aspects of pipeline, advise and lead development on certain projects.
+
+
 # IT Infrastructure Asst. Manager -- *Kuwait (Nov/2011 - May/2013)*
 
 **At Warba Insurance Company K.S.C**
