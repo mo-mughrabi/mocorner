@@ -12,3 +12,12 @@ github_username:  mo-mughrabi
 
 # Build settings
 markdown: kramdown
+exclude:
+ - unicorn.rb
+ - README.md
+ - Procfile
+ - Gemfile
+ - Gemfile.lock
+ - config.ru
+ - vendor
+ - app.json
