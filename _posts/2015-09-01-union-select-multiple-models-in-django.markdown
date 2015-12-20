@@ -4,21 +4,21 @@ title: union select multiple models in django
 excerpt_separator: <!--more-->
 ---
 
-Django ORM helps in overcoming most of the typical SQL requirements, selecting, inserting, 
-updating and deleting. All works perfectly as long as you are performing within the ORM guidelines. 
-Sooner or later, your application logic tends to grow which will push you to write nested and complicated queries. 
+Django ORM helps in overcoming most of the typical SQL requirements, selecting, inserting,
+updating and deleting. All works perfectly as long as you are performing within the ORM guidelines.
+Sooner or later, your application logic tends to grow which will push you to write nested and complicated queries.
 
-Django ORM provides some decent API to help you cope. Yet, in some of my projects, 
-I was faced with the challenge of hanlding similar models which in design should be seperated. 
-Yet, they need to be queried and viewed in one context. 
- 
+Django ORM provides some decent API to help you cope. Yet, in some of my projects,
+I was faced with the challenge of hanlding similar models which in design should be seperated.
+Yet, they need to be queried and viewed in one context.
+
 
 <!--more-->
 
-For this example, I will use a project that I've worked on recently which is a portal to host promotions and bargains, 
-they share some attribute but they are very different in logic and operation. With that, you need to build a 
-listing page to see a combination of both, some programmers try to combine the query using dict tools but for me, 
-the best approach is to use view based models. 
+For this example, I will use a project that I've worked on recently which is a portal to host promotions and bargains,
+they share some attribute but they are very different in logic and operation. With that, you need to build a
+listing page to see a combination of both, some programmers try to combine the query using dict tools but for me,
+the best approach is to use view based models.
 
  The idea is to convert the below model into a view to be queries and managed for select from one interface
 
@@ -26,8 +26,6 @@ the best approach is to use view based models.
 {% highlight python %}
 
 class Bargain(models.Model):
-    """
-    """
     DRAFT = 0
     PUBLISHED = 1
     DEFAULT_STATUS = PUBLISHED
@@ -61,9 +59,6 @@ class Bargain(models.Model):
 
 
 class Promotion(models.Model):
-    """
-
-    """
     DRAFT = 0
     PUBLISHED = 1
     DEFAULT_STATUS = PUBLISHED
@@ -96,7 +91,7 @@ class Promotion(models.Model):
 
 The above two models have a lot of similarity, now we need to build a view which will be used to union the two models. In order to do that, you could create the view directly into yout database or you could build the view into an SQL file and use signals to make sure the view executes everytime you run syncdb (Will write an article later about custom SQL execution)
 
-I wrote the below query which will union the two table and indicate from which table it was unioned to help in deterimining where this record from (bargain or promotion?) 
+I wrote the below query which will union the two table and indicate from which table it was unioned to help in deterimining where this record from (bargain or promotion?)
 
 {% highlight sql %}
 
@@ -179,8 +174,8 @@ FROM
 
 {% endhighlight %}     
 
-Once you have executed your view with all required attribute, now you work on mapping your attribute to a model in 
-django and make sure the model remains unmanaged so it won't execute for creation `Meta: managed=False`, 
+Once you have executed your view with all required attribute, now you work on mapping your attribute to a model in
+django and make sure the model remains unmanaged so it won't execute for creation `Meta: managed=False`,
 below is example of how my model in the end looked like
 
 {% highlight python %}
@@ -222,11 +217,11 @@ class Item(models.Model):
 
     def __unicode__(self):
         return u'%s - %s' % (self.source, self.id)   
-          
+
 {% endhighlight %}          
 
 Now the benefit of using view based model than joining queryset together is tremedous when you have performance concerns. Its easier to tune your view to the optimum performance, it also works well with pagination and ordering. When joining two queryset together, you run the risk of iterating over all your queryset to fix the ordering and eventually paginate a list, while with the view set, these will happen directly in the SQL engine. If you have any comments or questions do not hesitate to ask.
 
- 
+
 
 Salam.
