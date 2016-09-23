@@ -9,11 +9,13 @@ permalink: /projects/
 I maintain in here a list of projects that I'm proud of, member of or owner in shares. Projects are
 ordered by date or launch, each has a summary detail of my involvement and/or technology.
 
-#paribus.co (*2015 - Lead developer*)
+#[Paribus.co](paribus.co){:target="_blank"} - *2015 - Lead developer*
 
-Paribus is a tool to help track price changes of purchases users make, it gets users money back on price drops.
+Paribus gets you refunds you're owed from stores. When you buy something online and it goes on sale later, stores guarantee to pay you the difference back. Paribus gets you this money back automatically, right from your inbox.
 
-#[diwaniya labs](www.diwaniyalabs.com) (*2014 - Backend developer*)
+Paribus backed by Y Combinator (S15) and is already saving money for tens of thousands of families every week.
+
+#[Diwaniya Labs](www.diwaniyalabs.com){:target="_blank"} - *2014 - Backend developer*
 
 I had the pleasure to work with diwaniyalab's team, during I was engaged in building and designing
 a restFUL API to support their gaming platforms. The backend was developed using Django framework,
