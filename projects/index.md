@@ -10,16 +10,14 @@ I maintain in here a list of projects that I'm proud of, member of or owner in s
 ordered by date or launch, each has a summary detail of my involvement and/or technology.
 
 #[Paribus.co](https://paribus.co){:target="_blank"}
-**Role**: Lead Developer
-**Started**: 2015
+**Role**: Lead Developer **Launched**: 2015
 
 Paribus gets you refunds you're owed from stores. When you buy something online and it goes on sale later, stores guarantee to pay you the difference back. Paribus gets you this money back automatically, right from your inbox.
 
 Paribus backed by Y Combinator (S15) and is already saving money for tens of thousands of families every week.
 
 #[Diwaniya Labs](http://www.diwaniyalabs.com){:target="_blank"}
-**Role**: Backend Developer
-**Started**: 2014
+**Role**: Backend Developer **Launched**: 2014
 
 I had the pleasure to work with diwaniyalab's team, during I was engaged in building and designing
 a restFUL API to support their gaming platforms. The backend was developed using Django framework,
@@ -29,9 +27,8 @@ My role was to entirely develop the backend from the ground up, along with handl
 social authentications, managing sessions across API consumption via tokens. As well as building of
 deployment cycle and automating scaling on amazon infrastructure.
 
-#[almenbr.com](http://almenbr.com){:target="_blank"}
-**Role**: Co-Founder & Lead Developer
-**Started**: 2013
+#[Almenbr.com](http://almenbr.com){:target="_blank"}
+**Role**: Co-Founder & Lead Developer **Launched**: 2013
 
 Almenbr is a platform for writing articles and discuss them with others around you in your
 geographic location. t is a very effective tool to express your ideas to the biggest number
@@ -43,7 +40,8 @@ beta had 21,788 number of lines for the backend. Heavily relying on
 <a target="_blank"href="http://django-rest-framework.org">django-rest-framework</a> for all Ajax operations.
 Also worked on all javascript responsible to interact with backend via Ajax
 
-#youraok.net (*2013 - lead developer*)
+#[Youraok.net](http://youraok.net){:target="_blank"}
+**Role**: Lead Developer **Launched**: 2013
 
 Youraok is a social networking site and portfolio manager specially designed to cater for architects and
     designers. Both as individual talents and firms running such businesses.
@@ -52,8 +50,8 @@ The site went into development using Django 1.4 and Bootstrap 2.3. What makes th
 than others, we focused on scalable infrastructures by using Heroku and NewRelic to have in-depth
 analysis of the site utilization.
 
-#garage (*2013 - co-founder & developer*)
-
+#[Garage](https://github.com/mo-mughrabi/garage){:target="_blank"}
+**Role**: Lead Developer **Launched**: 2013
 
 Garage is a trendy new website for trading vehicle, garage.com.kw was developed and designed completely
 in Kuwait to serve the country as a start, Garage was developed in depth to cater for extreme and
@@ -70,8 +68,8 @@ of restful web services which in we used heavy AngularJS operations to render in
 public repository, feel free to browse or fork if you have similar requirements <a
     href="https://github.com/mo-mughrabi/garage" target="_blank">here</a>.
 
-
-#mazban.com (*2012 - founder & developer*)
+#mazban.com
+**Role**: Founder & Lead Developer **Launched**: 2012
 
 mazban is an online community build from scratch using Django 1.3. The application is intended to serve
 the middle east countries as a trading gateway, whereby users can post classifieds or events. The site
