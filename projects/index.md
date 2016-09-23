@@ -9,23 +9,29 @@ permalink: /projects/
 I maintain in here a list of projects that I'm proud of, member of or owner in shares. Projects are
 ordered by date or launch, each has a summary detail of my involvement and/or technology.
 
-#[Paribus.co](paribus.co){:target="_blank"} - *2015 - Lead developer*
+#[Paribus.co](https://paribus.co){:target="_blank"}
+**Role**: Lead Developer
+**Started**: 2015
 
 Paribus gets you refunds you're owed from stores. When you buy something online and it goes on sale later, stores guarantee to pay you the difference back. Paribus gets you this money back automatically, right from your inbox.
 
 Paribus backed by Y Combinator (S15) and is already saving money for tens of thousands of families every week.
 
-#[Diwaniya Labs](www.diwaniyalabs.com){:target="_blank"} - *2014 - Backend developer*
+#[Diwaniya Labs](http://www.diwaniyalabs.com){:target="_blank"}
+**Role**: Backend Developer
+**Started**: 2014
 
 I had the pleasure to work with diwaniyalab's team, during I was engaged in building and designing
 a restFUL API to support their gaming platforms. The backend was developed using Django framework,
-with <a target="_blank" href="http://django-rest-framework.org">django-rest-framework</a>.
+with [django-rest-framework](http://django-rest-framework.org){:target="_blank"}.
 
 My role was to entirely develop the backend from the ground up, along with handling authentications,
 social authentications, managing sessions across API consumption via tokens. As well as building of
 deployment cycle and automating scaling on amazon infrastructure.
 
-#almenbr.com (*2013 - co-founder & lead developer*)
+#[almenbr.com](http://almenbr.com){:target="_blank"}
+**Role**: Co-Founder & Lead Developer
+**Started**: 2013
 
 Almenbr is a platform for writing articles and discuss them with others around you in your
 geographic location. t is a very effective tool to express your ideas to the biggest number
