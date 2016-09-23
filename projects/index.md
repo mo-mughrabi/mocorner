@@ -13,7 +13,7 @@ ordered by date or launch, each has a summary detail of my involvement and/or te
 
 Paribus is a tool to help track price changes of purchases users make, it gets users money back on price drops.
 
-#(diwaniya labs)[www.diwaniyalabs.com] (*2014 - Backend developer*)
+#[diwaniya labs](www.diwaniyalabs.com) (*2014 - Backend developer*)
 
 I had the pleasure to work with diwaniyalab's team, during I was engaged in building and designing
 a restFUL API to support their gaming platforms. The backend was developed using Django framework,
