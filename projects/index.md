@@ -37,7 +37,7 @@ of readers. on the other hand, Almenbr will bring to you the ideas of other writ
 My role was to entirely develop the site from the ground up, the project was one of the longest
 estimated at 4 man months of effort. Project uses Django as backend, at time of launching the
 beta had 21,788 number of lines for the backend. Heavily relying on
-<a target="_blank"href="http://django-rest-framework.org">django-rest-framework</a> for all Ajax operations.
+[django-rest-framework](http://django-rest-framework.org){:target="_blank"} for all Ajax operations.
 Also worked on all javascript responsible to interact with backend via Ajax
 
 #[Youraok.net](http://youraok.net){:target="_blank"}
