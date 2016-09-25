@@ -12,7 +12,7 @@ specialized in system integration, web development and solution architecture.
 Experience
 --
 
-# Lead Developer -- *Kuwait (May/2013 - Current)*
+# Chief Technology Officer -- *Kuwait (May/2013 - Current)*
 
 **At Obytes**
 
