@@ -1,9 +1,5 @@
-Encoding.default_external = Encoding::UTF_8
-Encoding.default_internal = Encoding::UTF_8
-source 'https://rubygems.org'
-ruby '2.2.1'
-
-gem 'jekyll', '~> 2.5'
-gem 'rack-jekyll', github: 'adaoraul/rack-jekyll'
-gem 'unicorn'
-gem 'kramdown'
+source "https://rubygems.org"
+ruby RUBY_VERSION
+gem "jekyll", "3.4.3"
+gem 'jekyll-sitemap'
+gem 'rack-jekyll'

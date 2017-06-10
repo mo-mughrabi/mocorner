@@ -1,0 +1,1 @@
+git+https://fa295cf10d9e48949d27eb322920fac13f602219:x-oauth-basic@github.com/obytes/common-cli.git@0.1.4#egg=ob_common_cli
