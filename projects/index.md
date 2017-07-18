@@ -3,20 +3,20 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-##Web-based projects
+## Web-based projects
 
 
 I maintain in here a list of projects that I'm proud of, member of or owner in shares. Projects are
 ordered by date or launch, each has a summary detail of my involvement and/or technology.
 
-#[Paribus.co](https://paribus.co){:target="_blank"}
+# [Paribus.co](https://paribus.co){:target="_blank"}
 **Role**: Lead Developer **Launched**: 2015
 
 Paribus gets you refunds you're owed from stores. When you buy something online and it goes on sale later, stores guarantee to pay you the difference back. Paribus gets you this money back automatically, right from your inbox.
 
 Paribus backed by Y Combinator (S15) and is already saving money for tens of thousands of families every week.
 
-#[Diwaniya Labs](http://www.diwaniyalabs.com){:target="_blank"}
+# [Diwaniya Labs](http://www.diwaniyalabs.com){:target="_blank"}
 **Role**: Backend Developer **Launched**: 2014
 
 I had the pleasure to work with diwaniyalab's team, during I was engaged in building and designing
@@ -27,7 +27,7 @@ My role was to entirely develop the backend from the ground up, along with handl
 social authentications, managing sessions across API consumption via tokens. As well as building of
 deployment cycle and automating scaling on amazon infrastructure.
 
-#[Almenbr.com](http://almenbr.com){:target="_blank"}
+# [Almenbr.com](http://almenbr.com){:target="_blank"}
 **Role**: Co-Founder & Lead Developer **Launched**: 2013
 
 Almenbr is a platform for writing articles and discuss them with others around you in your
@@ -40,7 +40,7 @@ beta had 21,788 number of lines for the backend. Heavily relying on
 [django-rest-framework](http://django-rest-framework.org){:target="_blank"} for all Ajax operations.
 Also worked on all javascript responsible to interact with backend via Ajax
 
-#[Youraok.net](http://youraok.net){:target="_blank"}
+# [Youraok.net](http://youraok.net){:target="_blank"}
 **Role**: Lead Developer **Launched**: 2013
 
 Youraok is a social networking site and portfolio manager specially designed to cater for architects and
@@ -50,7 +50,7 @@ The site went into development using Django 1.4 and Bootstrap 2.3. What makes th
 than others, we focused on scalable infrastructures by using Heroku and NewRelic to have in-depth
 analysis of the site utilization.
 
-#[Garage](https://github.com/mo-mughrabi/garage){:target="_blank"}
+# [Garage](https://github.com/mo-mughrabi/garage){:target="_blank"}
 **Role**: Lead Developer **Launched**: 2013
 
 Garage is a trendy new website for trading vehicle, garage.com.kw was developed and designed completely
@@ -68,7 +68,7 @@ of restful web services which in we used heavy AngularJS operations to render in
 public repository, feel free to browse or fork if you have similar requirements <a
     href="https://github.com/mo-mughrabi/garage" target="_blank">here</a>.
 
-#mazban.com
+# mazban.com
 **Role**: Founder & Lead Developer **Launched**: 2012
 
 mazban is an online community build from scratch using Django 1.3. The application is intended to serve
@@ -84,7 +84,7 @@ offload user requests, it also uses amazon S3 storage to push uploaded content.
 ##Libraries & tools
 
 
-#[djsocial](https://github.com/mo-mughrabi/djsocial) - (*2014 - developer*)
+# [djsocial](https://github.com/mo-mughrabi/djsocial) - (*2014 - developer*)
 
 Djsocial was developed as initiative to create a robotic web based solution for social media, starting
 with twitter and expanding later to other channels. We will continue to support it if any issue arises
@@ -100,7 +100,7 @@ At the moment, Djsocial is built with twitter integration. With the following fu
 3. Auto follow back
 4. Auto un-follow back
 
-#[docker-tomcat8](https://github.com/mo-mughrabi/docker-tomcat8) (*2014 - developer*)
+# [docker-tomcat8](https://github.com/mo-mughrabi/docker-tomcat8) (*2014 - developer*)
 
 The new docker containers are receiving a lot of attention from developers and investors alike. Dockers
 are suppose to help in creating a unified configuration across a platform(s), whereby you can create a
@@ -111,7 +111,7 @@ webapp projects. For now, this repository contains a dockerfile which will bootu
 from Oracle.com.
 
 
-#[python-linkedin](https://github.com/mo-mughrabi/python-linkedin) (*2012 - developer*)
+# [python-linkedin](https://github.com/mo-mughrabi/python-linkedin) (*2012 - developer*)
 
 I usually use linkedin to maintain my career history, recommendation and resume. When I decided to work
 on mocorner.com, I was faced with creating a copy of my resume here too, this is when I decided to
@@ -124,7 +124,7 @@ available in github with recommendation retrieval API.
 
 Feel free to use it and if you have any issues you may report them <a href="https://github.com/mo-mughrabi/python-linkedin/issues">here</a>.
 
-#[django-google-translator](https://github.com/mo-mughrabi/django-google-translator/) (*2012 - developer*)
+# [django-google-translator](https://github.com/mo-mughrabi/django-google-translator/) (*2012 - developer*)
 
 This simple package is to use for running your .PO files for translation against google translation API.
 The package will extend your django command interface with a new command to retrieve all your .PO files,
@@ -135,7 +135,7 @@ files for you) it will place the translated strings inside the .PO file.
 Feel free to use it and if you have any issues you may report them <a
     href="https://github.com/mo-mughrabi/django-google-translator/issues">here</a>.
 
-#[django-dba](http://mo-mughrabi.github.com/django-dba/) (*2012 - developer*)
+# [django-dba](http://mo-mughrabi.github.com/django-dba/) (*2012 - developer*)
 
 django-dba focuses on creating an interface for developers working with django applications. It is
 intended to ease maintaining
