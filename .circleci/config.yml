@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.4.1-node
+        environment:
+          CLOUDSDK_COMPUTE_ZONE: us-central1-a
+          BUCKET: gs://www.mocorner.com
+    steps:
+      - checkout
+
+      # Restore bundle chache
+      - type: cache-restore
+        key: fugoki-static-{{ checksum "Gemfile.lock" }}
+
+      # Install dependancies
+      - run: bundle install
+
+      # Store bundle cache
+      - type: cache-save
+        key: fugoki-static-{{ checksum "Gemfile.lock" }}
+        paths:
+          - vendor/bundle
+
+      - deploy:
+          name: Deploy to google bucket
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              ./.circleci/deploy.sh
+            fi
