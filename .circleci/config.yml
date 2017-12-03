@@ -25,6 +25,6 @@ jobs:
       - deploy:
           name: Deploy to google bucket
           command: |
-            if [ "${CIRCLE_BRANCH}" == "updates" ]; then
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
               ./.circleci/deploy.sh
             fi
